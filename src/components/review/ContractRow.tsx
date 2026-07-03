@@ -34,8 +34,12 @@ export function ContractRow({ contract, index, selected, opened, onSelect }: Con
       <span className="truncate pr-5 text-zinc-300">{contract.vendor}</span>
       <span className="truncate pr-5 text-zinc-400">{contract.type}</span>
       <span className="text-zinc-400">{contract.effectiveDate}</span>
-      <RiskBadge risk={contract.risk} />
-      <ContextDots count={contract.contextEntries.length} />
+      <span className="min-w-0 overflow-hidden">
+        <RiskBadge compact risk={contract.risk} />
+      </span>
+      <span className="min-w-0">
+        <ContextDots count={contract.contextEntries.length} />
+      </span>
       <span className="text-zinc-500">{contract.lastReviewed}</span>
     </button>
   );

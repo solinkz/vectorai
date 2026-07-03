@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VectorAI">
+  <rect width="64" height="64" rx="14" fill="#050506"/>
+  <path d="M18 16h28L35 48h-7L18 16Z" fill="#1F7AFF"/>
+  <path d="M25 22h14l-6 18h-3l-5-18Z" fill="#52D273"/>
+  <rect x="10" y="10" width="44" height="44" rx="12" fill="none" stroke="rgba(255,255,255,.14)"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="VectorAI Active Review prototype thumbnail">
+  <rect width="1200" height="630" fill="#050506"/>
+  <rect x="64" y="56" width="1072" height="518" rx="28" fill="#090A0C" stroke="rgba(255,255,255,.08)"/>
+  <rect x="64" y="56" width="1072" height="70" rx="28" fill="#030304"/>
+  <text x="104" y="100" fill="#F4F4F5" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="2">VECTORAI</text>
+  <text x="104" y="188" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Active Review</text>
+  <circle cx="462" cy="170" r="7" fill="#52D273"/>
+  <text x="104" y="226" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="20">Contract review queue with institutional context beside every contract.</text>
+  <g transform="translate(104 268)">
+    <rect width="648" height="236" rx="18" fill="rgba(255,255,255,.025)" stroke="rgba(255,255,255,.08)"/>
+    <text x="28" y="45" fill="#71717A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">CONTRACT</text>
+    <text x="382" y="45" fill="#71717A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">RISK</text>
+    <text x="510" y="45" fill="#71717A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">CONTEXT</text>
+    <rect y="68" width="648" height="56" fill="rgba(31,122,255,.12)"/>
+    <rect y="68" width="4" height="56" fill="#1F7AFF"/>
+    <text x="28" y="103" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">CloudCorp Master Service Agreement</text>
+    <rect x="372" y="82" width="62" height="28" rx="7" fill="rgba(255,69,69,.16)" stroke="rgba(255,69,69,.55)"/>
+    <text x="389" y="102" fill="#FF7777" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">High</text>
+    <circle cx="524" cy="96" r="8" fill="#52D273"/>
+    <circle cx="550" cy="96" r="8" fill="#52D273"/>
+    <circle cx="576" cy="96" r="8" fill="#52D273"/>
+    <line x1="0" y1="124" x2="648" y2="124" stroke="rgba(255,255,255,.08)"/>
+    <text x="28" y="160" fill="#D4D4D8" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Atlas Vendor Agreement</text>
+    <rect x="372" y="140" width="62" height="28" rx="7" fill="rgba(242,184,75,.14)" stroke="rgba(242,184,75,.5)"/>
+    <text x="383" y="160" fill="#F6D365" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">Med</text>
+    <circle cx="524" cy="154" r="8" fill="#52D273"/>
+    <circle cx="550" cy="154" r="8" fill="#3F3F46"/>
+    <circle cx="576" cy="154" r="8" fill="#3F3F46"/>
+    <line x1="0" y1="182" x2="648" y2="182" stroke="rgba(255,255,255,.08)"/>
+    <text x="28" y="218" fill="#D4D4D8" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">BlueRiver NDA</text>
+    <rect x="372" y="198" width="62" height="28" rx="7" fill="rgba(82,210,115,.12)" stroke="rgba(82,210,115,.45)"/>
+    <text x="389" y="218" fill="#52D273" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Low</text>
+    <circle cx="524" cy="212" r="8" fill="#3F3F46"/>
+    <circle cx="550" cy="212" r="8" fill="#3F3F46"/>
+    <circle cx="576" cy="212" r="8" fill="#3F3F46"/>
+  </g>
+  <g transform="translate(788 176)">
+    <rect width="288" height="328" rx="18" fill="#0D0F12" stroke="rgba(255,255,255,.08)"/>
+    <text x="28" y="44" fill="#71717A" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="1.2">KNOWN CONTEXT</text>
+    <text x="28" y="86" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">CloudCorp MSA</text>
+    <rect x="28" y="118" width="232" height="82" rx="12" fill="rgba(255,255,255,.035)" stroke="rgba(255,255,255,.08)"/>
+    <text x="46" y="150" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="15">Vendor</text>
+    <text x="158" y="150" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">CloudCorp</text>
+    <line x1="28" y1="165" x2="260" y2="165" stroke="rgba(255,255,255,.08)"/>
+    <text x="46" y="187" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="15">Reviews</text>
+    <text x="224" y="187" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">4</text>
+    <rect x="28" y="226" width="232" height="72" rx="12" fill="rgba(255,255,255,.035)" stroke="rgba(255,255,255,.08)"/>
+    <text x="46" y="258" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">What Reviewers Know</text>
+    <text x="46" y="282" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="13">Human context, saved in flow.</text>
+  </g>
+</svg>

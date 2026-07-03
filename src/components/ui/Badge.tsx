@@ -1,6 +1,11 @@
 import type { RiskLevel } from "../../types/contract";
 
-export function RiskBadge({ risk }: { risk: RiskLevel }) {
+type RiskBadgeProps = {
+  risk: RiskLevel;
+  compact?: boolean;
+};
+
+export function RiskBadge({ risk, compact = false }: RiskBadgeProps) {
   const classes = {
     High: "border-red-500/30 bg-red-500/15 text-red-400",
     Medium: "border-amber-500/30 bg-amber-500/15 text-amber-300",
@@ -9,7 +14,9 @@ export function RiskBadge({ risk }: { risk: RiskLevel }) {
 
   return (
     <span
-      className={`inline-flex rounded-md border px-2 py-1 text-xs font-semibold ${classes[risk]}`}
+      className={`inline-flex items-center justify-center rounded-md border font-semibold ${classes[risk]} ${
+        compact ? "h-7 w-[62px] px-1 text-[11px]" : "px-2 py-1 text-xs"
+      }`}
     >
       {risk}
     </span>
