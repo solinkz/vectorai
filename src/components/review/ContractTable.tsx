@@ -43,9 +43,9 @@ export function ContractTable({
   }
 
   return (
-    <section className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02]">
+    <section className="overflow-hidden rounded-2xl border border-white/[0.07] bg-white/[0.02]">
       <div className="overflow-x-auto thin-scrollbar">
-        <div className="grid min-w-[1040px] grid-cols-[56px_1.5fr_1fr_1fr_130px_90px_110px_130px] px-5 py-4 text-[11px] font-semibold uppercase tracking-[0.14em] text-zinc-500">
+        <div className="grid min-w-[1000px] grid-cols-[52px_1.5fr_1fr_1fr_126px_74px_102px_126px] px-4 py-4 text-[10px] font-semibold uppercase tracking-[0.08em] text-zinc-500">
           {columns.map((column) => (
             <span key={column}>{column}</span>
           ))}
@@ -70,17 +70,17 @@ export function ContractTable({
               />
             ))
           ) : (
-            <div className="border-t border-white/10 px-5 py-14 text-center">
+            <div className="border-t border-white/[0.07] px-5 py-14 text-center">
               <p className="text-sm font-semibold text-white">No contracts match your search.</p>
               <p className="mt-2 text-sm text-zinc-500">Try a vendor, contract type, or risk level.</p>
             </div>
           )}
           {hasMore ? (
-            <div className="border-t border-white/10 px-5 py-4 text-center text-xs font-medium text-zinc-500">
+            <div className="border-t border-white/[0.07] px-5 py-4 text-center text-xs font-medium text-zinc-500">
               {loadingMore ? "Loading more contracts..." : "Scroll for more contracts"}
             </div>
           ) : contracts.length > 0 ? (
-            <div className="border-t border-white/10 px-5 py-4 text-center text-xs font-medium text-zinc-600">
+            <div className="border-t border-white/[0.07] px-5 py-4 text-center text-xs font-medium text-zinc-600">
               End of review queue
             </div>
           ) : null}

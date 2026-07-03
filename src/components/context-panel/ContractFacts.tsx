@@ -13,13 +13,13 @@ export function ContractFacts({ contract }: { contract: ContractRecord }) {
 
   return (
     <section className="space-y-3">
-      <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-zinc-500">
+      <h3 className="text-[10px] font-semibold uppercase tracking-[0.08em] text-zinc-500">
         Contract Facts
       </h3>
-      <div className="rounded-xl border border-white/10 bg-white/[0.03]">
+      <div className="rounded-xl border border-white/[0.07] bg-white/[0.03]">
         {facts.map(([label, value]) => (
           <div
-            className="flex items-center justify-between gap-5 border-b border-white/10 px-4 py-3 last:border-b-0"
+            className="flex items-center justify-between gap-5 border-b border-white/[0.07] px-4 py-3 last:border-b-0"
             key={label}
           >
             <span className="text-sm text-zinc-500">{label}</span>

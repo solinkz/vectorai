@@ -6,7 +6,6 @@ import { useKeyboardShortcuts } from "../../hooks/useKeyboardShortcuts";
 import { useLazyContracts } from "../../hooks/useLazyContracts";
 import { ContractTable } from "./ContractTable";
 import { ReviewHeader } from "./ReviewHeader";
-import { ShortcutBar } from "./ShortcutBar";
 
 export function ActiveReviewPage() {
   const {
@@ -101,7 +100,6 @@ export function ActiveReviewPage() {
               openedContractId={openedContractId}
               selectedIndex={selectedIndex}
             />
-            <ShortcutBar />
             <div className="sr-only" aria-live="polite">
               Prefetched adjacent contracts: {prefetchedIds.join(", ")}
             </div>

@@ -27,8 +27,8 @@ export function TagBadge({ tag }: { tag: string }) {
 
   return (
     <span
-      className={`mt-3 inline-flex rounded-md border px-2 py-1 text-[11px] font-semibold uppercase tracking-wide ${
-        classes[tag] ?? "border-white/10 bg-white/[0.04] text-zinc-300"
+      className={`mt-3 inline-flex rounded-md border px-2 py-1 text-[11px] font-semibold uppercase tracking-[0.06em] ${
+        classes[tag] ?? "border-white/[0.07] bg-white/[0.035] text-zinc-300"
       }`}
     >
       {tag}

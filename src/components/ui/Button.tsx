@@ -10,7 +10,7 @@ export function Button({ children, className = "", variant = "secondary", ...pro
     primary:
       "bg-brand-blue text-white hover:bg-blue-400 active:bg-blue-600 disabled:cursor-not-allowed disabled:bg-white/10 disabled:text-zinc-500",
     secondary:
-      "border border-white/10 bg-white/[0.04] text-zinc-100 hover:bg-white/[0.08] active:bg-white/[0.12]",
+      "border border-white/[0.07] bg-white/[0.035] text-zinc-100 hover:bg-white/[0.07] active:bg-white/[0.1]",
     ghost: "text-zinc-300 hover:bg-white/[0.06] active:bg-white/[0.1]"
   };
 

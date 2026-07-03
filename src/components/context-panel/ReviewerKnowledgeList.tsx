@@ -5,7 +5,7 @@ export function ReviewerKnowledgeList({ entries }: { entries: KnowledgeEntry[] }
   return (
     <section className="space-y-3">
       <div className="flex items-center justify-between">
-        <h3 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-zinc-500">
+        <h3 className="text-[10px] font-semibold uppercase tracking-[0.08em] text-zinc-500">
           What Reviewers Know
         </h3>
         <span className="text-xs font-medium text-zinc-500">
@@ -17,7 +17,7 @@ export function ReviewerKnowledgeList({ entries }: { entries: KnowledgeEntry[] }
         <div className="space-y-3">
           {entries.map((entry) => (
             <article
-              className="rounded-xl border border-white/10 bg-white/[0.03] p-4 shadow-panel"
+              className="rounded-xl border border-white/[0.07] bg-white/[0.03] p-4 shadow-panel"
               key={entry.id}
             >
               <div className="flex items-start justify-between gap-3">
@@ -35,7 +35,7 @@ export function ReviewerKnowledgeList({ entries }: { entries: KnowledgeEntry[] }
           ))}
         </div>
       ) : (
-        <div className="rounded-xl border border-dashed border-white/10 bg-white/[0.02] px-5 py-8 text-center">
+        <div className="rounded-xl border border-dashed border-white/[0.07] bg-white/[0.02] px-5 py-8 text-center">
           <p className="text-sm font-semibold text-white">Nothing recorded yet.</p>
           <p className="mt-2 text-sm leading-6 text-zinc-500">
             What would help you understand this contract if you returned to it next month?

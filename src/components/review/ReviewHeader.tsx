@@ -6,14 +6,14 @@ export function ReviewHeader({ totalCount }: { totalCount: number }) {
     <div className="flex flex-wrap items-start justify-between gap-5">
       <div>
         <div className="flex items-center gap-3">
-          <span className="h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_20px_rgba(82,210,115,0.45)]" />
           <h1 className="text-4xl font-bold tracking-tight text-white">Active Review</h1>
+          <span className="translate-y-1 rounded-md border border-white/[0.07] bg-white/[0.03] px-2 py-0.5 text-[11px] font-semibold text-zinc-500">
+            {totalCount}
+          </span>
+          <span className="h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_20px_rgba(82,210,115,0.45)]" />
         </div>
         <p className="mt-2 text-sm text-zinc-400">
-          Review contracts quickly. Use ↑ ↓ to navigate, Enter to open, R to add context.
-        </p>
-        <p className="mt-3 text-xs font-medium uppercase tracking-[0.14em] text-zinc-600">
-          {totalCount} contracts in current queue
+          Review contracts quickly while the context panel stays in sync.
         </p>
       </div>
       <div className="flex items-center gap-3">

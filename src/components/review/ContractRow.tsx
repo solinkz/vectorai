@@ -14,7 +14,7 @@ export function ContractRow({ contract, index, selected, opened, onSelect }: Con
   return (
     <button
       aria-selected={selected}
-      className={`relative grid h-16 w-full min-w-[1040px] grid-cols-[56px_1.5fr_1fr_1fr_130px_90px_110px_130px] items-center border-t border-white/10 px-5 text-left text-sm text-zinc-200 transition duration-150 ease-out focus:outline-none focus:ring-2 focus:ring-blue-500/70 ${
+      className={`relative grid h-16 w-full min-w-[1000px] grid-cols-[52px_1.5fr_1fr_1fr_126px_74px_102px_126px] items-center border-t border-white/[0.07] px-4 text-left text-sm text-zinc-200 transition duration-150 ease-out focus:outline-none focus:ring-2 focus:ring-blue-500/70 ${
         selected
           ? "bg-white/[0.055] shadow-glow"
           : "bg-transparent hover:bg-white/[0.04] active:bg-white/[0.06]"
